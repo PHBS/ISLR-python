@@ -1,6 +1,8 @@
 # ISLR-python
 This repository contains Python code for a selection of tables, figures and LAB sections from the book <A target="_blank" href='http://www-bcf.usc.edu/%7Egareth/ISL/index.html'>'An Introduction to Statistical Learning with Applications in R'</A> by James, Witten, Hastie, Tibshirani (2013).<P>
 
+For **Bayesian data analysis**, take a look at <A href='https://github.com/JWarmenhoven/DBDA-python'>this repository</A>.
+
 **2018-01-15**:<BR>
 Minor updates to the repository due to changes/deprecations in several packages. The notebooks have been tested with <A href='http://nbviewer.jupyter.org/github/JWarmenhoven/ISLR-python/blob/master/Notebooks/Python%20module%20versions.ipynb'>these package versions</A>. Thanks @lincolnfrias and @telescopeuser.
 <P>
@@ -9,7 +11,7 @@ Minor updates to the repository due to changes/deprecations in several packages.
 Chapter 6: I included Ridge/Lasso regression code using the new <A href='https://github.com/civisanalytics/python-glmnet'>python-glmnet</A> library. This is a python wrapper for the Fortran library used in the *R* package *glmnet*. 
 <P>
 
-<IMG src='http://www-bcf.usc.edu/%7Egareth/ISL/ISL%20Cover%202.jpg' height=20% width=20%> <P>
+<IMG src='Notebooks/ISL%20Cover%202.jpg' height=20% width=20%> <P>
 <A href='http://nbviewer.ipython.org/github/JWarmenhoven/ISL-python/blob/master/Notebooks/Chapter%203.ipynb'>Chapter 3 - Linear Regression</A><BR>
 <A href='http://nbviewer.ipython.org/github/JWarmenhoven/ISL-python/blob/master/Notebooks/Chapter%204.ipynb'>Chapter 4 - Classification</A><BR>
 <A href='http://nbviewer.ipython.org/github/JWarmenhoven/ISL-python/blob/master/Notebooks/Chapter%205.ipynb'>Chapter 5 - Resampling Methods</A><BR>
@@ -32,10 +34,8 @@ Since Python is my language of choice for data analysis, I decided to try and do
  - matplotlib
  - seaborn
 
-It was a good way to learn more about Machine Learning in Python by creating these notebooks. I created some of the figures/tables of the chapters and worked through some LAB sections. At certain points I realize that it may look like I tried too hard to make the output identical to the tables and R-plots in the book. But I did this to explore some details of the libraries mentioned above (mostly matplotlib and seaborn). Note that this repository is <STRONG>not a tutorial</STRONG> and that you probably should have a copy of the book to follow along. Suggestions for improvement and help with unsolved issues are welcome!
+It was a good way to learn more about Machine Learning in Python by creating these notebooks. I created some of the figures/tables of the chapters and worked through some LAB sections. At certain points I realize that it may look like I tried too hard to make the output identical to the tables and R-plots in the book. But I did this to explore some details of the libraries mentioned above (mostly matplotlib and seaborn). Note that this repository is <STRONG>not a standalone tutorial</STRONG> and that you probably should have a copy of the book to follow along. Suggestions for improvement and help with unsolved issues are welcome!
 See Hastie et al. (2009) for an advanced treatment of these topics.<P> 
-
-For Baysian data analysis, take a look at <A href='https://github.com/JWarmenhoven/DBDA-python'>this notebook</A>.
 
 #### References: 
 James, G., Witten, D., Hastie, T., Tibshirani, R. (2013). <I>An Introduction to Statistical Learning with Applications in  R</I>,  Springer Science+Business Media, New York.
